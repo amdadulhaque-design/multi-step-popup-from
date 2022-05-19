@@ -1,0 +1,128 @@
+.c-selected-reason {
+  border: 4px solid $blue-color;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  .c-header {
+    @include flex;
+    align-items: center;
+    background-color: $blue-color;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 40px;
+    .c-img {
+      width: 100px;
+    }
+    .c-text {
+      font-size: 30px;
+      color: $white-color;
+      padding-left: 20px;
+      .c-yello-text {
+        color: $yellow-color;
+        font-weight: 600;
+      }
+    }
+  }
+  .c-content {
+    .c-img {
+      width: 140px;
+      margin: 0 auto;
+      padding: 20px 0px;
+    }
+    .c-text {
+      padding: 0px 40px 20px 40px;
+      text-align: left;
+      font-size: $middle-text-size;
+      .c-bold-text {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .c-selected-reason {
+    border: 4px solid $blue-color;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    .c-header {
+      @include flex;
+      align-items: center;
+      background-color: $blue-color;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      padding: 10px 20px;
+      .c-img {
+        width: 80px;
+      }
+      .c-text {
+        font-size: 22px;
+        color: $white-color;
+        padding-left: 20px;
+        .c-yello-text {
+          color: $yellow-color;
+          font-weight: 600;
+        }
+      }
+    }
+    .c-content {
+      .c-img {
+        width: 140px;
+        margin: 0 auto;
+        padding: 20px 0px;
+      }
+      .c-text {
+        padding: 0px 30px 20px 30px;
+        text-align: left;
+        font-size: 18px;
+        .c-bold-text {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .c-selected-reason {
+    border: 4px solid $blue-color;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    .c-header {
+      @include flex;
+      align-items: center;
+      background-color: $blue-color;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      padding: 0px 8px;
+      font-size: 20px;
+      text-align: left;
+      .c-img {
+        width: 60px;
+      }
+      .c-text {
+        font-size: 20px;
+        color: $white-color;
+        padding-left: 20px;
+        .c-yello-text {
+          color: $yellow-color;
+          font-weight: 600;
+        }
+      }
+    }
+    .c-content {
+      .c-img {
+        width: 140px;
+        margin: 0 auto;
+        padding: 20px 0px;
+      }
+      .c-text {
+        padding: 0px 20px 10px 10px;
+        text-align: left;
+        font-size: 18px;
+        .c-bold-text {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.l-header {
+  padding: 70px;
+  padding-bottom: 50px;
+}
+
+@include tablet {
+  .l-header {
+    padding: 40px;
+  }
+}
+
+@include mobile {
+  .l-header {
+    padding: 20px;
+  }
+}

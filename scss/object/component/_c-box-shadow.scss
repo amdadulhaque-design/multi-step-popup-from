@@ -1,0 +1,18 @@
+.c-box-shadow {
+  box-shadow: inset 0px -11px 0px 0px $yellow-color;
+  font-weight: 600;
+}
+
+@include tablet {
+  .c-box-shadow {
+    box-shadow: inset 0px -9px 0px 0px $yellow-color;
+    font-weight: 600;
+  }
+}
+
+@include mobile {
+  .c-box-shadow {
+    box-shadow: inset 0px -6px 0px 0px $yellow-color;
+    font-weight: 600;
+  }
+}

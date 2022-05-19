@@ -1,0 +1,101 @@
+.c-qa-example {
+  border: 2px solid $blue-color;
+  border-radius: 10px;
+  font-size: $small-text-size;
+  .c-header {
+    background-color: $blue-color;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 0px;
+    color: $white-color;
+    .c-title {
+      color: $yellow-color;
+      padding-right: 20px;
+    }
+  }
+  .c-content {
+    padding: 20px;
+    background-color: $white-color;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    .c-text {
+      text-align: left;
+      .c-before-yen {
+        position: relative;
+        padding-bottom: 10px;
+        &::after {
+          position: absolute;
+          content: url(../img/arrow_count.png);
+          transform: scale(.4);
+          top: -10px;
+          left: 50%;
+        }
+      }
+      .c-after-yen {
+        padding-bottom: 20px;
+        color: $red-color;
+        font-weight: 600;
+        font-size: $middle-text-size;
+      }
+    }
+    .c-img-section {
+      .c-column {
+        .c-text {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .c-qa-example {
+    border: 2px solid $blue-color;
+    border-radius: 10px;
+    font-size: 14px;
+    .c-header {
+      background-color: $blue-color;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      padding: 5px 0px;
+      color: $white-color;
+      .c-title {
+        color: $yellow-color;
+        padding-right: 10px;
+      }
+    }
+    .c-content {
+      padding: 10px;
+      background-color: $white-color;
+      border-bottom-left-radius: 9px;
+      border-bottom-right-radius: 9px;
+      .c-text {
+        text-align: left;
+        .c-before-yen {
+          position: relative;
+          padding-bottom: 10px;
+          &::after {
+            position: absolute;
+            content: url(../img/arrow_count.png);
+            transform: scale(.4);
+            top: 0px;
+            left: 50%;
+          }
+        }
+        .c-after-yen {
+          padding-bottom: 10px;
+          color: $red-color;
+          font-weight: 600;
+          font-size: $middle-text-size;
+        }
+      }
+      .c-img-section {
+        .c-column {
+          .c-text {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

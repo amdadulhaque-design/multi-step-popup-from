@@ -1,0 +1,45 @@
+.u-hide {
+  display: none !important;
+}
+.u-pc-only {
+  display: block !important;
+}
+.u-tabPc-only {
+  display: block !important;
+}
+.u-tab-only {
+  display: none !important;
+}
+.u-sp-only {
+  display: none !important;
+}
+
+@include tablet {
+  .u-pc-only {
+    display: none !important;
+  }
+  .u-tabPc-only {
+    display: block !important;
+  }
+  .u-tab-only {
+    display: block !important;
+  }
+  .u-sp-only {
+    display: none !important;
+  }
+}
+
+@include mobile {
+  .u-pc-only {
+    display: none !important;
+  }
+  .u-tabPc-only {
+    display: none !important;
+  }
+  .u-tab-only {
+    display: none !important;
+  }
+  .u-sp-only {
+    display: block !important;
+  }
+}

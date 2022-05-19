@@ -1,0 +1,177 @@
+.p-plus-case-section {
+  background-image: url(../img/bg_grid.gif);
+  .p-plus-case-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    .p-title-section {
+      .p-title {
+        @include flex;
+        align-items: center;
+        .e-img {
+          width: 90px;
+        }
+        .e-text {
+          font-size: 30px;
+          font-weight: 600;
+          padding-left: 20px;
+          .e-red-text {
+            font-size: 36px;
+            color: $red-color;
+          }
+        }
+      }
+      .p-content {
+        padding: 40px 0px;
+        .e-text {
+          font-size: $middle-text-size;
+        }
+      }
+    }
+    .p-content-section {
+      .p-content {
+        @include flex;
+        align-items: center;
+        background-color: $white-color;
+        margin-bottom: 30px;
+        border: 6px solid #cacfd1;
+        border-radius: 15px;
+        padding: 20px 40px;
+        .e-img {
+          width: 30%;
+          padding: 20px
+        }
+        .e-text {
+          text-align: justify;
+          font-size: $large-text-size;
+          width: 70%;
+          .u-underline-text {
+            border-color: $red-color;
+          }
+        }
+        text-align: left;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .p-plus-case-section {
+    background-image: url(../img/bg_grid.gif);
+    .p-plus-case-inner {
+      width: 90%;
+      margin: 0 auto;
+      padding: 30px 0px;
+      .p-title-section {
+        .p-title {
+          @include flex;
+          align-items: center;
+          .e-img {
+            width: 80px;
+          }
+          .e-text {
+            font-size: 20px;
+            font-weight: 600;
+            padding-left: 20px;
+            .e-red-text {
+              font-size: 26px;
+              color: $red-color;
+            }
+          }
+        }
+        .p-content {
+          padding: 20px 0px;
+          .e-text {
+            font-size: 18px;
+          }
+        }
+      }
+      .p-content-section {
+        .p-content {
+          @include flex;
+          align-items: center;
+          background-color: $white-color;
+          margin-bottom: 20px;
+          border: 6px solid #cacfd1;
+          border-radius: 15px;
+          padding: 10px 20px;
+          .e-img {
+            width: 30%;
+            padding: 10px
+          }
+          .e-text {
+            text-align: justify;
+            font-size: 20px;
+            width: 70%;
+            .u-underline-text {
+              border-color: $red-color;
+            }
+          }
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .p-plus-case-section {
+    background-image: url(../img/bg_grid.gif);
+    .p-plus-case-inner {
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px 0px;
+      .p-title-section {
+        .p-title {
+          display: block;
+          .e-img {
+            width: 90px;
+            margin: 0 auto;
+          }
+          .e-text {
+            text-align: left;
+            font-size: 24px;
+            font-weight: 600;
+            padding-left: 10px;
+            .e-red-text {
+              font-size: 24px;
+              color: $red-color;
+            }
+          }
+        }
+        .p-content {
+          padding: 20px 0px;
+          .e-text {
+            text-align: left;
+            font-size: 20px;
+          }
+        }
+      }
+      .p-content-section {
+        .p-content {
+          display: block;
+          background-color: $white-color;
+          margin-bottom: 20px;
+          border: 4px solid #cacfd1;
+          border-radius: 10px;
+          padding: 10px 20px;
+          .e-img {
+            width: 60%;
+            margin: 0 auto;
+            padding: 10px
+          }
+          .e-text {
+            text-align: justify;
+            font-size: 20px;
+            width: 100%;
+            margin: 0 auto;
+            .u-underline-text {
+              border-color: $red-color;
+            }
+          }
+          text-align: left;
+        }
+      }
+    }
+  }
+}

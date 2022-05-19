@@ -1,0 +1,168 @@
+.c-ba-example {
+  border: 2px solid $blue-color;
+  border-radius: 10px;
+  font-size: $middle-text-size;
+  .c-header {
+    background-color: $blue-color;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 0px;
+    color: $white-color;
+    .c-title {
+      color: $yellow-color;
+      padding-right: 20px;
+    }
+  }
+  .c-content {
+    padding: 20px;
+    background-color: $white-color;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    .c-text {
+      text-align: left;
+      .c-before-yen {
+        position: relative;
+        padding-bottom: 10px;
+        &::after {
+          position: absolute;
+          content: url(../img/arrow_count.png);
+          transform: scale(.5);
+          top: -5px;
+          left: 50%;
+        }
+      }
+      .c-after-yen {
+        padding-bottom: 20px;
+        color: $red-color;
+        font-weight: 600;
+        .js-number1 {
+          font-size: 36px;
+        }
+      }
+    }
+    .c-img-section {
+      @include flex;
+      justify-content: space-between;
+      .c-column {
+        width: 49%;
+        .c-text {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .c-ba-example {
+    border: 2px solid $blue-color;
+    border-radius: 10px;
+    font-size: 16px;
+    .c-header {
+      background-color: $blue-color;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      padding: 10px 0px;
+      color: $white-color;
+      .c-title {
+        color: $yellow-color;
+        padding-right: 20px;
+      }
+    }
+    .c-content {
+      padding: 20px;
+      background-color: $white-color;
+      border-bottom-left-radius: 9px;
+      border-bottom-right-radius: 9px;
+      .c-text {
+        text-align: left;
+        .c-before-yen {
+          position: relative;
+          padding-bottom: 10px;
+          &::after {
+            position: absolute;
+            content: url(../img/arrow_count.png);
+            transform: scale(.4);
+            top: -5px;
+            left: 55%;
+          }
+        }
+        .c-after-yen {
+          padding-bottom: 20px;
+          color: $red-color;
+          font-weight: 600;
+          .js-number1 {
+            font-size: 26px;
+          }
+        }
+      }
+      .c-img-section {
+        @include flex;
+        justify-content: space-between;
+        .c-column {
+          width: 49%;
+          .c-text {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .c-ba-example {
+    border: 2px solid $blue-color;
+    border-radius: 10px;
+    font-size: 16px;
+    .c-header {
+      background-color: $blue-color;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      padding: 10px 0px;
+      color: $white-color;
+      .c-title {
+        color: $yellow-color;
+        padding-right: 20px;
+      }
+    }
+    .c-content {
+      padding: 20px;
+      background-color: $white-color;
+      border-bottom-left-radius: 9px;
+      border-bottom-right-radius: 9px;
+      .c-text {
+        text-align: left;
+        .c-before-yen {
+          position: relative;
+          padding-bottom: 10px;
+          &::after {
+            position: absolute;
+            content: url(../img/arrow_count.png);
+            transform: scale(.5);
+            top: -5px;
+            left: 55%;
+          }
+        }
+        .c-after-yen {
+          padding-bottom: 20px;
+          color: $red-color;
+          font-weight: 600;
+          .js-number1 {
+            font-size: 26px;
+          }
+        }
+      }
+      .c-img-section {
+        @include flex;
+        justify-content: space-between;
+        .c-column {
+          width: 49%;
+          .c-text {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

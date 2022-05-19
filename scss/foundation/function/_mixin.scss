@@ -1,0 +1,18 @@
+@mixin flex {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+}
+
+@mixin mobile {
+  @media (min-width: #{$breakpoint-mobile}) and (max-width: #{$breakpoint-tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$breakpoint-tablet - 1px}) and (max-width: #{$breakpoint-desktop - 1px}) {
+    @content;
+  }
+}

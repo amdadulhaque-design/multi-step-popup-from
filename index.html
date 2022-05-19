@@ -1,0 +1,467 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Multi-Step PopUp From</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- form css file -->
+    <link rel="stylesheet" href="css/form.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="lib/jquery.autoKana.js"></script>
+    <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+    <script src="js/style.js"></script>
+
+    <style type="text/css">
+        .btn {
+            padding: 25px !important;
+            background: #fff;
+            font-size: 25px;
+            margin: auto;
+            margin-top: auto;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXMMLDM" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="l-lp-wrap">
+
+        <div class="u-sp-only">
+            <img src="img/img_kv-sp.jpg" alt="mainvisual_image">
+        </div>
+
+        <main class="l-content">
+            <section class="l-section p-contact-section2 c-contact-section">
+                <div class="c-button-section" data-animation="slideInUp" data-animation-delay=".7s">
+                    <label for="trigger2" class="btn c-button c-button__check u-hover-opacity u-hover-up">
+                        <!-- img src="img/btn_form2.png" alt="form_button_image"> -->
+                            Click Me
+                    </label>
+                </div>
+            </section>
+
+            <section class="l-section p-contact-form-section1 c-contact-form-section">
+                <div class="c-contact-form_popup-wrap">
+                    <input id="trigger2" type="checkbox">
+                    <div class="c-contact-form_popup-overlay">
+                        <label for="trigger2" class="popup_trigger"></label>
+                        <div class="form_popup-content" id="Formwidth">
+                            <label for="trigger2" class="close_btn">×</label>
+                            <!-- form title -->
+                            <div class="form-section-title">
+                                <div class="title-text">
+                                    <div class="c-text">Fire insurance / subsidy</div>
+                                    <div class="c-text">Easy 60 seconds <span class="c-text-color">free diagnosis</span></div>
+                                </div>
+                                <div class="c-content">
+                                    <div class="c-column">
+                                        <div class="box-colum">
+                                            <div class="box active">
+                                                <div class="box-center active"></div>
+                                            </div>
+                                            <span class="box-shap1"></span>
+                                            <span class="box-shap2"></span>
+                                            <span class="box-shap3"></span>
+                                        </div>
+                                        <div class="c-text">Step One</div>
+                                    </div>
+                                    <div class="c-column">
+                                        <div class="box-colum">
+                                            <div class="box" id="colorbox1">
+                                                <div class="box-center" id="colorcenter1"></div>
+                                            </div>
+                                            <span class="box-shap1"></span>
+                                            <span class="box-shap2"></span>
+                                            <span class="box-shap3"></span>
+                                        </div>
+                                        <div class="c-text">Step Tow</div>
+                                    </div>
+                                    <div class="c-column">
+                                        <div class="box-colum">
+                                            <div class="box" id="colorbox2">
+                                                <div class="box-center" id="colorcenter2"></div>
+                                            </div>
+                                            <span class="box-shap1"></span>
+                                            <span class="box-shap2"></span>
+                                            <span class="box-shap3"></span>
+                                        </div>
+                                        <div class="c-text">Step Three</div>
+                                    </div>
+                                    <div class="c-column">
+                                        <div class="box-colum">
+                                            <div class="box" id="colorbox3">
+                                                <div class="box-center" id="colorcenter3"></div>
+                                            </div>
+                                        </div>
+                                        <div class="c-text">Step Four</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- form title -->
+
+                            <!-- form---1 -->
+                            <form class="c-contact-form h-adr" action="" id="Form1" method="POST">
+
+                                <!-- all input -->
+                                <div class="c-input-form-section" id="" data-animation="slideInUp"
+                                    data-animation-delay=".3s">
+                                    <!-- right -->
+
+                                    <div class="c-low">
+                                        <div class="c-input-column arraw-down">
+                                            <label for="select_repair">Building type</label>
+                                            <select id="" class="" name="">
+                                                <option value="" disabled selected>Please select</option>
+                                                <option value="">Keep in rain</option>
+                                                <option value="">Roof tile</option>
+                                                <option value="">Roof in general</option>
+                                            </select>
+                                            <span class="c-error-msg u-hide">* Please select the desired repair location.</span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="c-low">
+                                        <div class="c-input-column arraw-down">
+                                            <label for="select_repair">Building type</label>
+                                            <select id="" class="" name="">
+                                                <option value="" disabled selected>Please select</option>
+                                                <option value="雨どい">雨どい</option>
+                                                <option value="屋根瓦">屋根瓦</option>
+                                                <option value="屋根全般">屋根全般</option>
+                                                <option value="雨漏り">雨漏り</option>
+                                                <option value="外壁">外壁</option>
+                                                <option value="カーポート">カーポート</option>
+                                                <option value="その他">その他</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="c-low">
+                                        <div class="c-input-column arraw-down">
+                                            <label for="select_repair">Building type</label>
+                                            <select id="" class="" name="">
+                                                <option value="" disabled selected>Please select</option>
+                                                <option value="雨どい">雨どい</option>
+                                                <option value="屋根瓦">屋根瓦</option>
+                                                <option value="屋根全般">屋根全般</option>
+                                                <option value="雨漏り">雨漏り</option>
+                                                <option value="外壁">外壁</option>
+                                                <option value="カーポート">カーポート</option>
+                                                <option value="その他">その他</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="c-low">
+                                        <div class="c-input-column arraw-down">
+                                            <label for="select_repair">Building type</label>
+                                            <select id="" class="" name="">
+                                                <option value="" disabled selected>Please select</option>
+                                                <option value="雨どい">雨どい</option>
+                                                <option value="屋根瓦">屋根瓦</option>
+                                                <option value="屋根全般">屋根全般</option>
+                                                <option value="雨漏り">雨漏り</option>
+                                                <option value="外壁">外壁</option>
+                                                <option value="カーポート">カーポート</option>
+                                                <option value="その他">その他</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="c-low">
+                                        <div class="c-input-column">
+                                            <label for="" class="e-text">Address</label>
+                                            <div class="input-box">
+                                                <span class="c-text">〒</span>
+                                                <input class="c-post-address p-postal-code text-left" name=""
+                                                    type="text" placeholder="3320006 (half-width number)">
+                                            </div>
+                                            <label for="" class="e-text">* If you enter the zip code, it will be automatically entered
+                                                up .</label>
+                                            <div class="input-box">
+                                                <input type="text" name=""
+                                                    class="p-region p-locality p-street-address p-extended-address"
+                                                    placeholder="2-13-7 Suehiro, Kawaguchi City, Saitama Prefecture">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- all input -->
+
+                                <!-- button -->
+                                <div class="btn-box">
+                                    <button type="button" id="Next1">Next</button>
+                                </div>
+                                <!-- button -->
+
+                            </form>
+                            <!-- form---1 -->
+
+                            <!-- form---2 -->
+                            <form class="c-contact-form h-adr" action="" id="Form2" method="POST">
+
+                                <!-- all input -->
+                                <div class="c-input-form-section" id="" data-animation="slideInUp"
+                                    data-animation-delay=".3s">
+                                    <!-- right -->
+                                    <div class="c-low">
+                                        <div class="c-input-column">
+                                            <label for="" class="e-text">Name</label>
+                                            <div class="input-box">
+                                                <input type="text" name=""
+                                                    class="p-region p-locality p-street-address p-extended-address"
+                                                    placeholder="Kitaro Fuji">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-input-column">
+                                            <label for="" class="e-text">Furigana</label>
+                                            <div class="input-box">
+                                                <input type="text" name=""
+                                                    class="p-region p-locality p-street-address p-extended-address"
+                                                    placeholder="Fujitaka Taro">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-input-column">
+                                            <label for="" class="e-text">telephone number
+                                            </label>
+                                            <div class="input-box">
+                                                <input type="text" name=""
+                                                    class="p-region p-locality p-street-address p-extended-address"
+                                                    placeholder="090-1234-5678 (half-width numbers)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-input-column">
+                                            <label for="" class="e-text">mail address</label>
+                                            <div class="input-box">
+                                                <input type="text" name=""
+                                                    class="p-region p-locality p-street-address p-extended-address"
+                                                    placeholder="mail@gmail.com (half-width alphanumerical characters)">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-input-column">
+                                            <label for="" class="e-text">Request (optional)</label>
+                                            <div class="input-box">
+                                                <textarea name="consultant_content" rows="6"
+                                                    placeholder="The gutter at home is damaged.  Is disaster insurance applicable?"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- all input -->
+
+                                <!-- button -->
+                                <div class="btn-box">
+                                    <button type="button" id="Back1">Back</button>
+                                    <button type="button" id="Next2">Next</button>
+                                </div>
+
+                                <!-- button -->
+                            </form>
+                            <!-- form---2 -->
+
+                            <!-- form---3 -->
+                            <form class="c-contact-form h-adr" action="#" id="Form3" method="POST">
+
+                                <!-- all input -->
+                                <div class="c-input-form-section c-form-information" id="" data-animation="slideInUp"
+                                    data-animation-delay=".3s">
+                                    <!-- right -->
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">Building type</label>
+                                            <p class="text">
+                                                Detached house
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">Age</label>
+                                            <p class="text"> 6-10 years</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">Desired repair location</label>
+                                            <p class="text"> Keep in rain</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">Insurance company</label>
+                                            <p class="text"> Private insurance company</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">address</label>
+                                            <p class="text">Suehiro, Kawaguchi City, Saitama Prefecture 3320006</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">name</label>
+                                            <p class="text"> Kitaro Fuji</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">Furigana</label>
+                                            <p class="text">Fujitaka Taro</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">telephone number</label>
+                                            <p class="text"> 090-1234-5678</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">mail address</label>
+                                            <p class="text"> Keep in rain</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-low">
+                                        <div class="c-text-column">
+                                            <label for="" class="e-text">Request (optional)</label>
+                                            <p class="text">The gutter at home is damaged.<br>
+                                                Is disaster insurance applicable?</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- all input -->
+
+                                <!-- button -->
+                                <div class="btn-box">
+                                    <button type="button" id="Back2">Back</button>
+                                    <button type="Submite"">Submit</button>
+                                </div>
+                                <!-- button -->
+
+                            </form>
+                            <!-- form---3 -->
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        // alert
+        function validation() {
+            // swal("Completed", "You Success to Registation", "success",[null]);
+            swal({
+                title: "Completed",
+                text: "You Success to Registation",
+                icon: "success",
+                button: [null],
+            })
+        }
+        // alert
+
+        var Form1 = document.getElementById("Form1");
+        var Form2 = document.getElementById("Form2");
+        var Form3 = document.getElementById("Form3");
+
+        var Form3width = document.getElementById("Formwidth");
+
+        var colorAni1 = document.getElementById("colorbox1");
+        var colorAni2 = document.getElementById("colorbox2");
+        var colorAni3 = document.getElementById("colorbox3");
+
+        var colorenter1 = document.getElementById("colorcenter1");
+        var colorenter2 = document.getElementById("colorcenter2");
+        var colorenter3 = document.getElementById("colorcenter3");
+
+        var Next1 = document.getElementById("Next1");
+        var Next2 = document.getElementById("Next2");
+        var Back1 = document.getElementById("Back1");
+        var Back2 = document.getElementById("Back2");
+
+        Next1.onclick = function () {
+            Form1.style.display = "none"
+            Form2.style.display = "block";
+
+            Formwidth.style.height = "2075px";
+            colorAni1.style.background = "#5CB346";
+            colorenter1.style.background = "#5CB346";
+        }
+
+        Back1.onclick = function () {
+            Form1.style.display = "block";
+            Form2.style.display = "none";
+
+            Formwidth.style.height = "2075px";
+            colorAni1.style.background = "#707070";
+            colorenter1.style.background = "#FFFFFF";
+        }
+
+
+        Next2.onclick = function () {
+            Form2.style.display = "none";
+            Form3.style.display = "block";
+
+            Formwidth.style.height = "2075px";
+            colorAni2.style.background = "#5CB346";
+            colorenter2.style.background = "#5CB346";
+        }
+
+        Back2.onclick = function () {
+            Formwidth.style.height = "2075px";
+        }
+
+        Back2.onclick = function () {
+            Form2.style.display = "block";
+            Form3.style.display = "none";
+
+            colorAni2.style.background = "#707070";
+            colorenter2.style.background = "#FFFFFF";
+        }
+    </script>
+
+
+</body>
+
+</html>

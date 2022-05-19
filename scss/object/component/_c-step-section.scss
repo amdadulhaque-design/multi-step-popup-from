@@ -1,0 +1,58 @@
+.c-step-section {
+  background-color: $white-color;
+  text-align: left;
+  border-radius: 10px;
+  .c-header {
+    background-color: $light-yellow-color;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+    @include flex;
+    align-items: center;
+    .c-step-text {
+      background-color: $yellow-color;
+      padding: 10px;
+      border-top-left-radius: 10px;
+    }
+    .c-text {
+      padding-left: 10px;
+    }
+  }
+  .c-content {
+    padding: 20px;
+    .c-img {
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 10px;
+      img {
+        height: 110px;
+        max-width: auto;
+      }
+    }
+    .c-text {
+      text-align: justify;
+      .u-underline-text {
+        border-bottom: 2px solid $red-color;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .c-step-section {
+    margin-bottom: 20px;
+  }
+}
+
+@include mobile {
+  .c-step-section {
+    .c-text {
+      font-size: 20px;
+    }
+    .c-content {
+      .c-text {
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.l-row {
+  @include flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.l-row2 {
+  width: 48%;
+}
+
+.l-row3 {
+  width: 30%;
+}
+
+.l-row4 {
+  width: 24%;
+}
+
+@include tablet {
+  .l-row4 {
+    width: 48%;
+  }
+}
+
+@include mobile {
+  .l-row {
+    display: block;
+    padding-bottom: 0px;
+  }
+  .l-row2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .l-row3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .l-row4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

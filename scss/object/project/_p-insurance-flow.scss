@@ -1,0 +1,120 @@
+.p-insurance-flow {
+  background-color: $blue-color;
+  .p-flow-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+    .p-title-section {
+      .p-title {
+        color: $white-color;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 40px 0px;
+      }
+      .p-sub-title {
+        color: $white-color;
+        font-size: $middle-text-size;
+        .e-ybg-text {
+          font-size: $large-text-size;
+          color: $green-color;
+          font-weight: 600;
+          background-color: $yellow-color;
+          border-radius: 10px;
+          padding: 0 4px;
+        }
+        .e-yellow-text {
+          color: $yellow-color;
+          font-size: $large-text-size;
+          font-weight: 600;
+        }
+      }
+    }
+    .p-content {
+      padding: 40px 0px;
+      @include flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@include tablet {
+  .p-insurance-flow {
+    background-color: $blue-color;
+    .p-flow-inner {
+      width: 90%;
+      margin: 0 auto;
+      .p-title-section {
+        .p-title {
+          color: $white-color;
+          font-size: 26px;
+          font-weight: 600;
+          padding: 20px 0px;
+        }
+        .p-sub-title {
+          color: $white-color;
+          font-size: 18px;
+          .e-ybg-text {
+            font-size: 20px;
+            color: $green-color;
+            font-weight: 600;
+            background-color: $yellow-color;
+            border-radius: 10px;
+            padding: 0 4px;
+          }
+          .e-yellow-text {
+            color: $yellow-color;
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+      }
+      .p-content {
+        padding: 20px 0px;
+        @include flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@include mobile {
+  .p-insurance-flow {
+    background-color: $blue-color;
+    .p-flow-inner {
+      width: 90%;
+      margin: 0 auto;
+      .p-title-section {
+        .p-title {
+          color: $white-color;
+          font-size: 26px;
+          font-weight: 600;
+          padding: 20px 0px;
+        }
+        .p-sub-title {
+          color: $white-color;
+          font-size: 20px;
+          text-align: left;
+          .e-ybg-text {
+            font-size: 20px;
+            color: $green-color;
+            font-weight: 600;
+            background-color: $yellow-color;
+            border-radius: 5px;
+            padding: 0 4px;
+          }
+          .e-yellow-text {
+            color: $yellow-color;
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+      }
+      .p-content {
+        padding: 20px 0px;
+        display: block;
+      }
+    }
+  }
+}

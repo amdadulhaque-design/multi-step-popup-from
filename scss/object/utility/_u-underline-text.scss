@@ -1,0 +1,9 @@
+.u-underline-text {
+  border-bottom: 6px solid;
+}
+
+@include mobile {
+  .u-underline-text {
+    border-bottom: 2px solid;
+  }
+}

@@ -1,0 +1,17 @@
+.p-company-info-section {
+  padding: 40px 0px;
+}
+
+@include tablet {
+  .p-company-info-section {
+    padding: 20px 0px;
+  }
+}
+
+@include mobile {
+  .p-company-info-section {
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+  }
+}

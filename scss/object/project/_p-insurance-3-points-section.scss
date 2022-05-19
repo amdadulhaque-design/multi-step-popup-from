@@ -1,0 +1,325 @@
+.p-insurance-3-points-section {
+  background-color: $bg-light-green-color;
+  .p-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    .p-title {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .e-text {
+        color: $green-color;
+        .e-number {
+          font-size: 60px;
+        }
+      }
+    }
+    .p-point1 {
+      .p-title-section {
+        @include flex;
+        align-items: center;
+        .e-img {
+          width: 90px;
+        }
+        .e-text {
+          padding-left: 20px;
+          color: $green-color;
+          font-size: $middle-text-size;
+          .e-mtext {
+            font-size: 30px;
+          }
+        }
+      }
+      .p-content {
+        @include flex;
+        justify-content: space-between;
+        .p-column {
+          padding: 40px 20px;
+          @include flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+          .e-text {
+            padding-top: 20px;
+            font-size: $middle-text-size;
+          }
+        }
+      }
+    }
+    .p-point2 {
+      .p-title-section {
+        padding-top: 40px;
+        @include flex;
+        align-items: center;
+        .e-img {
+          width: 90px;
+        }
+        .e-text {
+          font-size: 30px;
+          padding-left: 20px;
+          color: $green-color;
+          span {
+            display: inline;
+          }
+        }
+      }
+      .p-img {
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      .p-text {
+        font-size: $middle-text-size;
+      }
+    }
+    .p-point3 {
+      padding-bottom: 40px;
+      .p-title-section {
+        padding-top: 40px;
+        @include flex;
+        align-items: center;
+        .e-img {
+          width: 90px;
+        }
+        .e-text {
+          font-size: 30px;
+          padding-left: 20px;
+          color: $green-color;
+        }
+      }
+      .p-img {
+        width: 80%;
+        margin: 0 auto;
+        @include flex;
+        .e-img {
+          padding: 10px;
+        }
+      }
+      .p-text {
+        font-size: $middle-text-size;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .p-insurance-3-points-section {
+    background-color: $bg-light-green-color;
+    .p-inner {
+      width: 90%;
+      margin: 0 auto;
+      .p-title {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .e-text {
+          color: $green-color;
+          .e-number {
+            font-size: 40px;
+          }
+        }
+      }
+      .p-point1 {
+        .p-title-section {
+          @include flex;
+          align-items: center;
+          .e-img {
+            width: 90px;
+          }
+          .e-text {
+            padding-left: 20px;
+            color: $green-color;
+            font-size: 18px;
+            .e-mtext {
+              font-size: 22px;
+            }
+          }
+        }
+        .p-content {
+          @include flex;
+          justify-content: space-between;
+          .p-column {
+            padding: 30px 15px;
+            @include flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            .e-text {
+              padding-top: 10px;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .p-point2 {
+        .p-title-section {
+          padding-top: 30px;
+          @include flex;
+          align-items: center;
+          .e-img {
+            width: 90px;
+          }
+          .e-text {
+            font-size: 22px;
+            padding-left: 10px;
+            color: $green-color;
+          }
+        }
+        .p-img {
+          width: 70%;
+          margin: 0 auto;
+          padding: 10px;
+        }
+        .p-text {
+          font-size: 18px;
+        }
+      }
+      .p-point3 {
+        padding-bottom: 30px;
+        .p-title-section {
+          padding-top: 40px;
+          @include flex;
+          align-items: center;
+          .e-img {
+            width: 90px;
+          }
+          .e-text {
+            font-size: 22px;
+            padding-left: 20px;
+            color: $green-color;
+          }
+        }
+        .p-img {
+          width: 80%;
+          margin: 0 auto;
+          @include flex;
+          .e-img {
+            padding: 10px;
+          }
+        }
+        .p-text {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .p-insurance-3-points-section {
+    background-color: $bg-light-green-color;
+    .p-inner {
+      width: 90%;
+      margin: 0 auto;
+      .p-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .e-text {
+          color: $green-color;
+          .e-number {
+            font-size: 30px;
+          }
+        }
+      }
+      .p-point1 {
+        .p-title-section {
+          display: block;
+          .e-img {
+            width: 60px;
+            margin: 0 auto;
+          }
+          .e-text {
+            padding-left: 0;
+            color: $green-color;
+            font-size: 24px;
+            .e-mtext {
+              font-size: 24px;
+            }
+          }
+        }
+        .p-content {
+          @include flex;
+          justify-content: space-between;
+          .p-column {
+            padding: 10px 5px;
+            @include flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            .e-text {
+              padding-top: 20px;
+              font-size: 16px;
+            }
+          }
+        }
+        .u-sp-only {
+          display: block;
+          .p-row {
+            @include flex;
+            justify-content: flex-end;
+            align-items: center;
+            .p-column {
+              padding: 10px 10px;
+              @include flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              align-items: center;
+              .e-text {
+                padding-top: 20px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      .p-point2 {
+        .p-title-section {
+          padding-top: 40px;
+          display: block;
+          .e-img {
+            width: 60px;
+            margin: 0 auto;
+          }
+          .e-text {
+            font-size: 24px;
+            padding-left: 0;
+            color: $green-color;
+          }
+        }
+        .p-img {
+          width: 100%;
+          margin: 0 auto;
+          padding: 10px;
+        }
+        .p-text {
+          font-size: 20px;
+        }
+      }
+      .p-point3 {
+        padding-bottom: 20px;
+        .p-title-section {
+          padding-top: 40px;
+          display: block;
+          .e-img {
+            width: 60px;
+            margin: 0 auto;
+          }
+          .e-text {
+            font-size: 24px;
+            padding-left: 0;
+            color: $green-color;
+          }
+        }
+        .p-img {
+          width: 100%;
+          margin: 0 auto;
+          @include flex;
+          .e-img {
+            padding: 10px;
+          }
+        }
+        .p-text {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
